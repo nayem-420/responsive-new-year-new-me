@@ -26,7 +26,7 @@
 {
     background-image: url(../images/banner/banner1.png);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     height: 800px;
     display: flex;
     justify-content: flex-end;
@@ -53,8 +53,41 @@
     font-weight: 400;
 }
 
+.previous
+{
+    display: flex;
+    margin: 100px 100px 0 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.previous-title
+{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.previous-description
+{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.icon 
+{
+    display: flex;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-right: 10px;
+    gap: 10px;
+}
 
 /* responsive for small device */
 @media screen and (max-width: 576px) {
-    
+    .previous
+    {
+        flex-direction: column;
+        margin: 0 auto;
+    }
 }
