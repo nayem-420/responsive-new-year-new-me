@@ -83,11 +83,38 @@
     gap: 10px;
 }
 
+/* plans style */
+.plans-section
+{
+    margin: 130px 100px;
+}
+.plans-title
+{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.plans-site
+{
+    display: flex;
+    justify-content: center;
+    gap: 85px;
+}
+
+.plans-option
+{
+    text-align: center;
+}
+
 /* responsive for small device */
 @media screen and (max-width: 576px) {
     .previous
     {
         flex-direction: column;
         margin: 0 auto;
+    }
+
+    .plans-site
+    {
+        flex-direction: column;
     }
 }
